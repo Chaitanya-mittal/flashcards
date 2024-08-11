@@ -6,12 +6,11 @@ Database Setup:
 
 User Roles:
 Admin:
+  Permissions:
+    Create flashcards
+    Edit flashcards
+    Delete flashcards
 
-Permissions:
-Create flashcards
-Edit flashcards
-Delete flashcards
 User:
-
-Permissions:
-Read-only access to flashcards
+  Permissions:
+    Read-only access to flashcards
