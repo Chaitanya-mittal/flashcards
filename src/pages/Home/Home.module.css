@@ -1,0 +1,12 @@
+.home {
+  width: 100%;
+  height: 100%;
+}
+
+.playzone {
+  display: flex;
+  margin: auto;
+  max-width: 500px;
+  width: 100%;
+  justify-content: center;
+}

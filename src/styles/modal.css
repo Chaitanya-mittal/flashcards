@@ -1,0 +1,62 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
+}
+
+.window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 40rem;
+  background-color: #191919;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+}
+
+.window div:first-child {
+  color: #e1e1e1;
+}
+
+.flashForm {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 20px;
+}
+
+.flashForm div {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 1rem;
+}
+
+.flashForm label {
+  color: #e1e1e1;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.flashForm textarea {
+  width: 100%;
+  background-color: #191919;
+  padding: 1rem;
+  color: #e1e1e1;
+}
+
+.cardOperations {
+  width: 100%;
+  text-align: right;
+}
+
+.cardOperations span {
+  margin: 0 5px;
+}
