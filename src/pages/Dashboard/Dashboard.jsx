@@ -6,12 +6,12 @@ import useFlashcards from "../../features/FlashCard/useFlashcards";
 import Loader from "../../ui/Loader";
 
 function Dashboard() {
-  //   const { flashcards = [], loadingFlashcards } = useFlashcards();
-  //   if (loadingFlashcards) {
-  //     return <Loader />;
-  //   }
+    const { flashcards = [], loadingFlashcards } = useFlashcards();
+    if (loadingFlashcards) {
+      return <Loader />;
+    }
 
-  const flashcards = [];
+  
   return (
     <section className="main">
       <Modal>
