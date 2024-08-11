@@ -1,6 +1,17 @@
-Didnt wanted to make the database local , so used supabase for database related functionality.
-Two types of users - 1. user
-                    2. Admin
+Database Setup:
+  Platform:
+    Supabase (for cloud-based database functionality)
 
-ADMIN - can create , edit , delete flashcards
-USER - can only read the flashcards.
+-------------------------------------------------
+
+User Roles:
+Admin:
+
+Permissions:
+Create flashcards
+Edit flashcards
+Delete flashcards
+User:
+
+Permissions:
+Read-only access to flashcards
