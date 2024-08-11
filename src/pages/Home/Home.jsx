@@ -6,6 +6,7 @@ import styles from "./Home.module.css";
 import { useState } from "react";
 function Home() {
   const { flashcards = [], loadingFlashcards } = useFlashcards();
+
   const [currIndex, setCurrIndex] = useState(0);
   if (loadingFlashcards) {
     return <Loader />;
@@ -13,6 +14,7 @@ function Home() {
   if (flashcards.length === 0) {
     return <Empty resource="flashcards" />;
   }
+
   return (
     <div className={styles.home}>
       <div className="buttonBox">
