@@ -24,7 +24,7 @@ Implemented the backend locally
 4. Encryption - bcryptjs
 
 
-1. ROUTES -
+5. ROUTES -
    1. USER - 
      1. POST :  /api/users  - create a new user
      2. GET : /api/users/:id - return user w.r.t to id
